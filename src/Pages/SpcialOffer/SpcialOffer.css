@@ -1,0 +1,137 @@
+.spicalofferpage{
+    padding:0 30px;
+    display:flex;
+    align-items: center;
+    background: var(--white-color);
+}
+.spicaloffer-imge-wrpper{
+    width:50%;
+    height:auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    flex-direction: column;
+    border-left: 1px solid var(--main-color);
+}
+.spicaloffer-imge{
+    width:50%;
+}
+.offer-page-select{
+    margin-top: 20px;
+}
+.select-imge{
+    width:100px;
+    height:100px;
+    cursor: pointer;
+    border:1px solid var(--main-color);
+    margin: 5px;
+}
+.spicaloffer-info{
+    width:50%;
+    padding:20px;
+}
+.spicaloffer-info-title{
+    font-size: 24px;
+    font-weight: 700;
+    color:var(--primary-color);
+    margin-bottom: 15px;
+}
+.spcial-offer-price{
+    margin:15px 0;
+}
+.spacial-offer-price-item{
+    font-size: 21px;
+    color:var(--light-red-color);
+    text-decoration: line-through;
+    
+}
+.spcial-offer-final-discount{
+    font-size: 21px;
+    color:var(--primary-color);
+    margin-right: 10px;
+}
+.spacial-offer-add-cart{
+    font-size: 21px;
+    font-weight: 500;
+    color:var(--primary-color);
+    margin-top: 15px;
+}
+.spacial-offer-add-cart input{
+    border:1px solid var(--primary-color);
+    padding:5px 10px;
+    font-size: 21px;
+    color:var(--primary-color);
+    margin-left: 10px;
+}
+.spacial-offer-add-cart-btn{
+    background-color: var(--info-color);
+    color:var(--white-color);
+    font-size: 21px;
+    font-weight: 500;
+    border: none;
+    padding: 5px  10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.product-description{
+    font-size: 17px;
+    line-height: 1.8;
+    color:var(--primary-color);
+    padding: 30px;
+}
+.product-description-title{
+    font-size: 24px;
+    color:var(--primary-color);
+    display: block;
+}
+@media(max-width:980px){
+    .spicalofferpage{
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: right;
+    }
+    .spicaloffer-imge-wrpper{
+        width: 100%;
+        border: none;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .spicaloffer-imge{
+        display: flex;
+        flex-direction: column;
+    }
+    .spicaloffer-info{
+        width: 100%;
+    }
+}
+@media(max-width:720px) {
+ .select-imge{
+    width:70px;
+    height:70px;
+ }
+ 
+}
+@media(max-width:520px) {
+   .spicalofferpage{
+    flex-direction: column;
+   }
+   .spicaloffer-imge-wrpper{
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+
+   }
+
+   .spicaloffer-imge{
+    width:90%;
+    flex-direction: row;
+   }
+   .select-imge{
+    width:60px;
+    height: 60px;
+   }
+}
